@@ -7,3 +7,5 @@ There are so many things to take note for avoid memory leaks.
 * We need to use getApplicationContext() where we need to get the context in application insted of activity context. If we need to use activity context then we need to destroy them on activity destroy.
 * Distroy asynctask and other bacground theread task while activty distroy. It will initiate to memory leak.
     
+### 2. What is broadcast receiver? ###
+👉  Broadcast receiver is android component for handling diffrent type of events. Broadcast Receivers are used to respond to these system-wide events. Broadcast Receivers allow us to register for the system and application events, and when that event happens, then the register receivers get notified.
